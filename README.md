@@ -11,4 +11,6 @@ We need to change the port in both the `server.rs` and `client.rs` file both in 
 
 ## Small changes, add IP and Port
 
+![screenshot2](img/ss2.png)
+
 To get the hostname, we use the gethostname by adding the dependency and then use the package. Then we make the message format to include the hostname, ip, port, and the message itself which then we unwrap the message into string.
